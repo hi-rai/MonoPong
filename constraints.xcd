@@ -1,0 +1,57 @@
+#Constraints for Zybo Zynq-7000 ARM/FPGA SoC Trainer Board 
+
+
+//Zybo clock
+set_property -dict { PACKAGE_PIN L16   IOSTANDARD LVCMOS33 } [get_ports { clk }];
+//Zybo pushbuttons
+set_property -dict { PACKAGE_PIN Y16   IOSTANDARD LVCMOS33 } [get_ports { stop }];
+set_property -dict { PACKAGE_PIN V16   IOSTANDARD LVCMOS33 } [get_ports { start }];
+set_property -dict { PACKAGE_PIN P16   IOSTANDARD LVCMOS33 } [get_ports { push_1 }];
+set_property -dict { PACKAGE_PIN R18   IOSTANDARD LVCMOS33 } [get_ports { push_2 }];
+//Pmod JE1 to JE4 and JE7 to JE9
+set_property -dict { PACKAGE_PIN V12   IOSTANDARD LVCMOS33 } [get_ports { disp_score[7] }];
+set_property -dict { PACKAGE_PIN W16   IOSTANDARD LVCMOS33 } [get_ports { disp_score[8] }];
+set_property -dict { PACKAGE_PIN J15   IOSTANDARD LVCMOS33 } [get_ports { disp_score[9] }];
+set_property -dict { PACKAGE_PIN H15   IOSTANDARD LVCMOS33 } [get_ports { disp_score[10] }];
+set_property -dict { PACKAGE_PIN V13   IOSTANDARD LVCMOS33 } [get_ports { disp_score[11] }];
+set_property -dict { PACKAGE_PIN U17   IOSTANDARD LVCMOS33 } [get_ports { disp_score[12] }];
+set_property -dict { PACKAGE_PIN T17   IOSTANDARD LVCMOS33 } [get_ports { disp_score[13] }];
+//Pmod JD1 to JD4 and JD7 to JD9
+set_property -dict { PACKAGE_PIN T14   IOSTANDARD LVCMOS33 } [get_ports { disp_score[0] }];
+set_property -dict { PACKAGE_PIN T15   IOSTANDARD LVCMOS33 } [get_ports { disp_score[1] }];
+set_property -dict { PACKAGE_PIN P14   IOSTANDARD LVCMOS33 } [get_ports { disp_score[2] }];
+set_property -dict { PACKAGE_PIN R14   IOSTANDARD LVCMOS33 } [get_ports { disp_score[3] }];
+set_property -dict { PACKAGE_PIN U14   IOSTANDARD LVCMOS33 } [get_ports { disp_score[4] }];
+set_property -dict { PACKAGE_PIN U15   IOSTANDARD LVCMOS33 } [get_ports { disp_score[5] }];
+set_property -dict { PACKAGE_PIN V17   IOSTANDARD LVCMOS33 } [get_ports { disp_score[6] }];
+//Pmod JC1 to JC4 and JC7 to JC9
+set_property -dict { PACKAGE_PIN V15   IOSTANDARD LVCMOS33 } [get_ports { disp_level[0] }];
+set_property -dict { PACKAGE_PIN W15   IOSTANDARD LVCMOS33 } [get_ports { disp_level[1] }];
+set_property -dict { PACKAGE_PIN T11   IOSTANDARD LVCMOS33 } [get_ports { disp_level[2] }];
+set_property -dict { PACKAGE_PIN T10   IOSTANDARD LVCMOS33 } [get_ports { disp_level[3] }];
+set_property -dict { PACKAGE_PIN W14   IOSTANDARD LVCMOS33 } [get_ports { disp_level[4] }];
+set_property -dict { PACKAGE_PIN Y14   IOSTANDARD LVCMOS33 } [get_ports { disp_level[5] }];
+set_property -dict { PACKAGE_PIN T12   IOSTANDARD LVCMOS33 } [get_ports { disp_level[6] }];
+//Pmod JA9
+set_property -dict { PACKAGE_PIN J16   IOSTANDARD LVCMOS33 } [get_ports { LED_r }];
+//Pmod JA10
+set_property -dict { PACKAGE_PIN J14   IOSTANDARD LVCMOS33 } [get_ports { LED_g }];
+//Pmod JB1 to JB4 and JB7 to JB10
+set_property -dict { PACKAGE_PIN T20   IOSTANDARD LVCMOS33 } [get_ports { LED[0] }];
+set_property -dict { PACKAGE_PIN U20   IOSTANDARD LVCMOS33 } [get_ports { LED[1] }];
+set_property -dict { PACKAGE_PIN V20   IOSTANDARD LVCMOS33 } [get_ports { LED[2] }];
+set_property -dict { PACKAGE_PIN W20   IOSTANDARD LVCMOS33 } [get_ports { LED[3] }]
+set_property -dict { PACKAGE_PIN Y18   IOSTANDARD LVCMOS33 } [get_ports { LED[4] }];
+set_property -dict { PACKAGE_PIN Y19   IOSTANDARD LVCMOS33 } [get_ports { LED[5] }];
+set_property -dict { PACKAGE_PIN W18   IOSTANDARD LVCMOS33 } [get_ports { LED[6] }];
+set_property -dict { PACKAGE_PIN W19   IOSTANDARD LVCMOS33 } [get_ports { LED[7] }];
+//Pmod JA1 to JA4
+set_property -dict { PACKAGE_PIN N15   IOSTANDARD LVCMOS33 } [get_ports { LED[8] }];
+set_property -dict { PACKAGE_PIN L14   IOSTANDARD LVCMOS33 } [get_ports { LED[9] }];
+set_property -dict { PACKAGE_PIN K16   IOSTANDARD LVCMOS33 } [get_ports { blue[0] }];
+set_property -dict { PACKAGE_PIN K14   IOSTANDARD LVCMOS33 } [get_ports { blue[1] }];
+//Zybo LEDs
+set_property -dict { PACKAGE_PIN D18   IOSTANDARD LVCMOS33 } [get_ports { zybo_LED[3] }];
+set_property -dict { PACKAGE_PIN G14   IOSTANDARD LVCMOS33 } [get_ports { zybo_LED[2] }];
+set_property -dict { PACKAGE_PIN M15   IOSTANDARD LVCMOS33 } [get_ports { zybo_LED[1] }];
+set_property -dict { PACKAGE_PIN M14   IOSTANDARD LVCMOS33 } [get_ports { zybo_LED[0] }];
