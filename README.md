@@ -10,3 +10,7 @@ single player controlled and will display the score of the user as he progresses
 two buttons for playing (acts as paddles for hitting the ball). The display on the game also shows the level as user progress through the 
 game. With each increase in level the speed of the ball increases, making the game harder to play. The level itself increases by one 
 everytime the user score increases by ten. 
+
+
+Follow the link below to see snapshots of the project implementation.
+https://drive.google.com/drive/folders/1t0hZj8aT2aqizTlpfWFVnbGogAiooma6
