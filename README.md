@@ -12,5 +12,5 @@ game. With each increase in level the speed of the ball increases, making the ga
 everytime the user score increases by ten. 
 
 
-Follow the link below to see snapshots of the project implementation.
+Follow the link below to see snapshots of the project implementation:
 https://drive.google.com/drive/folders/1t0hZj8aT2aqizTlpfWFVnbGogAiooma6
