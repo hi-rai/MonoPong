@@ -280,7 +280,7 @@ module clock_generator(input ck, input [3:0] level, input drctn, input push_a, i
 endmodule
 
 //module consisting of combination description to convert 4-bit hexadecimal number into 7-bit
-//output which can be given to a seven segment display
+//output which can be given to a seven segment display.
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 //out[3:0]  - four bit hexadecimal input
 //disp[0]	- a 
